@@ -1,5 +1,5 @@
 const express = require('express')
-const PORT = process.env.PORT || 5214
+const PORT = 8082
 const mongoose = require('mongoose')
 const app = express()
 const authRouter = require('./authRouter')
